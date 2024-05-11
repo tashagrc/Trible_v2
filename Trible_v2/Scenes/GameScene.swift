@@ -171,10 +171,10 @@ class GameScene: SKScene {
                         
                         let highscore = CaloriesGenerator.sharedInstance.getHighscore()
                         
-                        CaloriesGenerator.sharedInstance.setScore(Double(howManyMove) * 0.2)
+                        CaloriesGenerator.sharedInstance.setScore(Double(howManyMove) * 200)
                         
-                        if (0.2 * Double(howManyMove)) > highscore {
-                            CaloriesGenerator.sharedInstance.setHighscore(Double(howManyMove) * 0.2)
+                        if (200 * Double(howManyMove)) > highscore {
+                            CaloriesGenerator.sharedInstance.setHighscore(Double(howManyMove) * 200)
                         }
                     }
                 }

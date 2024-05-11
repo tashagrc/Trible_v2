@@ -1,33 +1,33 @@
-//
-//  CameraViewController.swift
-//  Trible
-//
-//  Created by Natasha Radika on 11/05/24.
-//
+/*
+See LICENSE folder for this sample’s licensing information.
 
-import Foundation
+Abstract:
+The app's main view controller.
+*/
 
 import UIKit
 import Vision
 
 class CameraViewController: UIViewController {
-    
     @IBOutlet var imageView: UIImageView!
-    @IBOutlet weak var labelStack: UIStackView!
+    // @IBOutlet weak var labelStack: UIStackView!
     @IBOutlet weak var actionLabel: UILabel!
-    @IBOutlet weak var confidenceLabel: UILabel!
-    
+    // @IBOutlet weak var confidenceLabel: UILabel!
     var videoCapture: VideoCapture!
     var videoProcessingChain: VideoProcessingChain!
     var actionFrameCounts = [String: Int]()
-    
+}
+
+// MARK: - View Controller Events
+extension CameraViewController {
+    /// Configures the main view after it loads.
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // ui kit
         // Disable the idle timer to prevent the screen from locking.
         UIApplication.shared.isIdleTimerDisabled = true
 
+       
         // Set the view controller as the video-processing chain's delegate.
         videoProcessingChain = VideoProcessingChain()
         videoProcessingChain.delegate = self
@@ -37,14 +37,8 @@ class CameraViewController: UIViewController {
         videoCapture.delegate = self
 
         updateUILabelsWithPrediction(.startingPrediction)
-
-        
     }
 
-    override var prefersStatusBarHidden: Bool {
-        return true
-    }
-    
     /// Configures the video captures session with the device's orientation.
     ///
     /// This is the app's first opportunity to retrieve the device's
@@ -55,7 +49,7 @@ class CameraViewController: UIViewController {
         // Update the device's orientation.
         videoCapture.updateDeviceOrientation()
     }
-    
+
     /// Notifies the video capture when the device rotates to a new orientation.
     override func viewWillTransition(to size: CGSize,
                                      with coordinator: UIViewControllerTransitionCoordinator) {
@@ -65,6 +59,7 @@ class CameraViewController: UIViewController {
 }
 
 
+// MARK: - Video Capture Delegate
 extension CameraViewController: VideoCaptureDelegate {
     /// Receives a video frame publisher from a video capture.
     /// - Parameters:
@@ -140,8 +135,8 @@ extension CameraViewController {
         DispatchQueue.main.async { self.actionLabel.text = prediction.label }
 
         // Update the UI's confidence label on the main thread.
-        let confidenceString = prediction.confidenceString ?? "Observing..."
-        DispatchQueue.main.async { self.confidenceLabel.text = confidenceString }
+//        let confidenceString = prediction.confidenceString ?? "Observing..."
+//        DispatchQueue.main.async { self.confidenceLabel.text = confidenceString }
     }
 
     /// Draws poses as wireframes on top of a frame, and updates the user
@@ -195,4 +190,3 @@ extension CameraViewController {
         DispatchQueue.main.async { self.imageView.image = frameWithPosesRendering }
     }
 }
-

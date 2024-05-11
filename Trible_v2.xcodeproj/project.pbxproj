@@ -53,6 +53,7 @@
 		A38547A72BEFA17200BA35BE /* MainMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38547802BEFA17200BA35BE /* MainMenu.swift */; };
 		A38547A82BEFA17200BA35BE /* MainMenuExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38547812BEFA17200BA35BE /* MainMenuExt.swift */; };
 		A38547AA2BEFA97E00BA35BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A38547A92BEFA97E00BA35BE /* Main.storyboard */; };
+		A38547AC2BEFBE6C00BA35BE /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38547AB2BEFBE6C00BA35BE /* CameraViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -122,6 +123,7 @@
 		A38547802BEFA17200BA35BE /* MainMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMenu.swift; sourceTree = "<group>"; };
 		A38547812BEFA17200BA35BE /* MainMenuExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMenuExt.swift; sourceTree = "<group>"; };
 		A38547A92BEFA97E00BA35BE /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		A38547AB2BEFBE6C00BA35BE /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -183,8 +185,8 @@
 				A385471F2BEFA10100BA35BE /* GameScene.sks */,
 				A38547212BEFA10100BA35BE /* Actions.sks */,
 				A38547A92BEFA97E00BA35BE /* Main.storyboard */,
-				A385472A2BEFA10300BA35BE /* Assets.xcassets */,
 				A385472C2BEFA10300BA35BE /* LaunchScreen.storyboard */,
+				A385472A2BEFA10300BA35BE /* Assets.xcassets */,
 			);
 			path = Trible_v2;
 			sourceTree = "<group>";
@@ -210,6 +212,8 @@
 			isa = PBXGroup;
 			children = (
 				A38547512BEFA17100BA35BE /* GameViewController.swift */,
+				A38547AB2BEFBE6C00BA35BE /* CameraViewController.swift */,
+				A38547622BEFA17100BA35BE /* Pose */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -287,7 +291,6 @@
 			isa = PBXGroup;
 			children = (
 				A385475D2BEFA17100BA35BE /* Action Classifier */,
-				A38547622BEFA17100BA35BE /* Pose */,
 				A38547642BEFA17100BA35BE /* Utilities */,
 				A38547692BEFA17100BA35BE /* Video Capture */,
 				A385476B2BEFA17100BA35BE /* Video Processing Chain */,
@@ -481,6 +484,7 @@
 				A385478D2BEFA17200BA35BE /* ExerciseClassifier+Singleton.swift in Sources */,
 				A385478A2BEFA17200BA35BE /* ExerciseClassifier+Label.swift in Sources */,
 				A385478F2BEFA17200BA35BE /* Pose+Connection.swift in Sources */,
+				A38547AC2BEFBE6C00BA35BE /* CameraViewController.swift in Sources */,
 				A38547A82BEFA17200BA35BE /* MainMenuExt.swift in Sources */,
 				A38547A22BEFA17200BA35BE /* GameOver.swift in Sources */,
 				A38547872BEFA17200BA35BE /* ActionPrediction.swift in Sources */,
