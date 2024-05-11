@@ -8,10 +8,9 @@
 import SpriteKit
 
 class MainMenu: SKScene {
-    
     // properties
-    
     var containerNode: SKSpriteNode!
+    
     let audioManager = SKTAudio.sharedInstance()
     
     
@@ -54,4 +53,3 @@ class MainMenu: SKScene {
     }
     
 }
-

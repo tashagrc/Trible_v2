@@ -10,14 +10,49 @@
 		A385471E2BEFA10100BA35BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A385471D2BEFA10100BA35BE /* AppDelegate.swift */; };
 		A38547202BEFA10100BA35BE /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = A385471F2BEFA10100BA35BE /* GameScene.sks */; };
 		A38547222BEFA10100BA35BE /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = A38547212BEFA10100BA35BE /* Actions.sks */; };
-		A38547242BEFA10100BA35BE /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38547232BEFA10100BA35BE /* GameScene.swift */; };
-		A38547262BEFA10100BA35BE /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38547252BEFA10100BA35BE /* GameViewController.swift */; };
-		A38547292BEFA10100BA35BE /* Base in Resources */ = {isa = PBXBuildFile; fileRef = A38547282BEFA10100BA35BE /* Base */; };
 		A385472B2BEFA10300BA35BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A385472A2BEFA10300BA35BE /* Assets.xcassets */; };
 		A385472E2BEFA10300BA35BE /* Base in Resources */ = {isa = PBXBuildFile; fileRef = A385472D2BEFA10300BA35BE /* Base */; };
 		A38547382BEFA10300BA35BE /* Trible_v2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38547372BEFA10300BA35BE /* Trible_v2Tests.swift */; };
 		A38547422BEFA10300BA35BE /* Trible_v2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38547412BEFA10300BA35BE /* Trible_v2UITests.swift */; };
 		A38547442BEFA10300BA35BE /* Trible_v2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38547432BEFA10300BA35BE /* Trible_v2UITestsLaunchTests.swift */; };
+		A38547842BEFA17200BA35BE /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38547512BEFA17100BA35BE /* GameViewController.swift */; };
+		A38547852BEFA17200BA35BE /* CaloriesGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38547532BEFA17100BA35BE /* CaloriesGenerator.swift */; };
+		A38547862BEFA17200BA35BE /* Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38547542BEFA17100BA35BE /* Types.swift */; };
+		A38547872BEFA17200BA35BE /* ActionPrediction.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38547562BEFA17100BA35BE /* ActionPrediction.swift */; };
+		A38547882BEFA17200BA35BE /* ExerciseClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = A38547572BEFA17100BA35BE /* ExerciseClassifier.mlmodel */; };
+		A38547892BEFA17200BA35BE /* ExerciseClassifier+FrameRate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38547582BEFA17100BA35BE /* ExerciseClassifier+FrameRate.swift */; };
+		A385478A2BEFA17200BA35BE /* ExerciseClassifier+Label.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38547592BEFA17100BA35BE /* ExerciseClassifier+Label.swift */; };
+		A385478B2BEFA17200BA35BE /* ExerciseClassifier+LabelCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = A385475A2BEFA17100BA35BE /* ExerciseClassifier+LabelCheck.swift */; };
+		A385478C2BEFA17200BA35BE /* ExerciseClassifier+PredictAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = A385475B2BEFA17100BA35BE /* ExerciseClassifier+PredictAction.swift */; };
+		A385478D2BEFA17200BA35BE /* ExerciseClassifier+Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A385475C2BEFA17100BA35BE /* ExerciseClassifier+Singleton.swift */; };
+		A385478E2BEFA17200BA35BE /* Pose.swift in Sources */ = {isa = PBXBuildFile; fileRef = A385475E2BEFA17100BA35BE /* Pose.swift */; };
+		A385478F2BEFA17200BA35BE /* Pose+Connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = A385475F2BEFA17100BA35BE /* Pose+Connection.swift */; };
+		A38547902BEFA17200BA35BE /* Pose+Empty.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38547602BEFA17100BA35BE /* Pose+Empty.swift */; };
+		A38547912BEFA17200BA35BE /* Pose+Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38547612BEFA17100BA35BE /* Pose+Landmark.swift */; };
+		A38547922BEFA17200BA35BE /* PerformanceReporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38547632BEFA17100BA35BE /* PerformanceReporter.swift */; };
+		A38547932BEFA17200BA35BE /* AVCaptureDevice+FrameRate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38547652BEFA17100BA35BE /* AVCaptureDevice+FrameRate.swift */; };
+		A38547942BEFA17200BA35BE /* AVCaptureDeviceInput+Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38547662BEFA17100BA35BE /* AVCaptureDeviceInput+Camera.swift */; };
+		A38547952BEFA17200BA35BE /* AVCaptureVideoDataOutput+PixelFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38547672BEFA17100BA35BE /* AVCaptureVideoDataOutput+PixelFormat.swift */; };
+		A38547962BEFA17200BA35BE /* VideoCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38547682BEFA17100BA35BE /* VideoCapture.swift */; };
+		A38547972BEFA17200BA35BE /* VideoProcessingChain.swift in Sources */ = {isa = PBXBuildFile; fileRef = A385476A2BEFA17100BA35BE /* VideoProcessingChain.swift */; };
+		A38547982BEFA17200BA35BE /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A385476C2BEFA17100BA35BE /* ViewModel.swift */; };
+		A38547992BEFA17200BA35BE /* Krungthep.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A385476F2BEFA17100BA35BE /* Krungthep.ttf */; };
+		A385479A2BEFA17200BA35BE /* backgroundMusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A38547712BEFA17200BA35BE /* backgroundMusic.mp3 */; };
+		A385479B2BEFA17200BA35BE /* coin.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A38547722BEFA17200BA35BE /* coin.mp3 */; };
+		A385479C2BEFA17200BA35BE /* collision.wav in Resources */ = {isa = PBXBuildFile; fileRef = A38547732BEFA17200BA35BE /* collision.wav */; };
+		A385479D2BEFA17200BA35BE /* jump.wav in Resources */ = {isa = PBXBuildFile; fileRef = A38547742BEFA17200BA35BE /* jump.wav */; };
+		A385479E2BEFA17200BA35BE /* CGFloat+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38547762BEFA17200BA35BE /* CGFloat+Ext.swift */; };
+		A385479F2BEFA17200BA35BE /* CGPoint+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38547772BEFA17200BA35BE /* CGPoint+Ext.swift */; };
+		A38547A02BEFA17200BA35BE /* SKAction+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38547782BEFA17200BA35BE /* SKAction+Ext.swift */; };
+		A38547A12BEFA17200BA35BE /* SKTAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38547792BEFA17200BA35BE /* SKTAudio.swift */; };
+		A38547A22BEFA17200BA35BE /* GameOver.swift in Sources */ = {isa = PBXBuildFile; fileRef = A385477B2BEFA17200BA35BE /* GameOver.swift */; };
+		A38547A32BEFA17200BA35BE /* GameOverExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = A385477C2BEFA17200BA35BE /* GameOverExt.swift */; };
+		A38547A42BEFA17200BA35BE /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A385477D2BEFA17200BA35BE /* GameScene.swift */; };
+		A38547A52BEFA17200BA35BE /* GameSceneContactDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A385477E2BEFA17200BA35BE /* GameSceneContactDelegate.swift */; };
+		A38547A62BEFA17200BA35BE /* GameSceneExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = A385477F2BEFA17200BA35BE /* GameSceneExt.swift */; };
+		A38547A72BEFA17200BA35BE /* MainMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38547802BEFA17200BA35BE /* MainMenu.swift */; };
+		A38547A82BEFA17200BA35BE /* MainMenuExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38547812BEFA17200BA35BE /* MainMenuExt.swift */; };
+		A38547AA2BEFA97E00BA35BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A38547A92BEFA97E00BA35BE /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,9 +77,6 @@
 		A385471D2BEFA10100BA35BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A385471F2BEFA10100BA35BE /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		A38547212BEFA10100BA35BE /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
-		A38547232BEFA10100BA35BE /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
-		A38547252BEFA10100BA35BE /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
-		A38547282BEFA10100BA35BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A385472A2BEFA10300BA35BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A385472D2BEFA10300BA35BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A38547332BEFA10300BA35BE /* Trible_v2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Trible_v2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -52,6 +84,44 @@
 		A385473D2BEFA10300BA35BE /* Trible_v2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Trible_v2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A38547412BEFA10300BA35BE /* Trible_v2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trible_v2UITests.swift; sourceTree = "<group>"; };
 		A38547432BEFA10300BA35BE /* Trible_v2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trible_v2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A38547512BEFA17100BA35BE /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		A38547532BEFA17100BA35BE /* CaloriesGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaloriesGenerator.swift; sourceTree = "<group>"; };
+		A38547542BEFA17100BA35BE /* Types.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Types.swift; sourceTree = "<group>"; };
+		A38547562BEFA17100BA35BE /* ActionPrediction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionPrediction.swift; sourceTree = "<group>"; };
+		A38547572BEFA17100BA35BE /* ExerciseClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = ExerciseClassifier.mlmodel; sourceTree = "<group>"; };
+		A38547582BEFA17100BA35BE /* ExerciseClassifier+FrameRate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ExerciseClassifier+FrameRate.swift"; sourceTree = "<group>"; };
+		A38547592BEFA17100BA35BE /* ExerciseClassifier+Label.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ExerciseClassifier+Label.swift"; sourceTree = "<group>"; };
+		A385475A2BEFA17100BA35BE /* ExerciseClassifier+LabelCheck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ExerciseClassifier+LabelCheck.swift"; sourceTree = "<group>"; };
+		A385475B2BEFA17100BA35BE /* ExerciseClassifier+PredictAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ExerciseClassifier+PredictAction.swift"; sourceTree = "<group>"; };
+		A385475C2BEFA17100BA35BE /* ExerciseClassifier+Singleton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ExerciseClassifier+Singleton.swift"; sourceTree = "<group>"; };
+		A385475E2BEFA17100BA35BE /* Pose.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pose.swift; sourceTree = "<group>"; };
+		A385475F2BEFA17100BA35BE /* Pose+Connection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Pose+Connection.swift"; sourceTree = "<group>"; };
+		A38547602BEFA17100BA35BE /* Pose+Empty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Pose+Empty.swift"; sourceTree = "<group>"; };
+		A38547612BEFA17100BA35BE /* Pose+Landmark.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Pose+Landmark.swift"; sourceTree = "<group>"; };
+		A38547632BEFA17100BA35BE /* PerformanceReporter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PerformanceReporter.swift; sourceTree = "<group>"; };
+		A38547652BEFA17100BA35BE /* AVCaptureDevice+FrameRate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AVCaptureDevice+FrameRate.swift"; sourceTree = "<group>"; };
+		A38547662BEFA17100BA35BE /* AVCaptureDeviceInput+Camera.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AVCaptureDeviceInput+Camera.swift"; sourceTree = "<group>"; };
+		A38547672BEFA17100BA35BE /* AVCaptureVideoDataOutput+PixelFormat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AVCaptureVideoDataOutput+PixelFormat.swift"; sourceTree = "<group>"; };
+		A38547682BEFA17100BA35BE /* VideoCapture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoCapture.swift; sourceTree = "<group>"; };
+		A385476A2BEFA17100BA35BE /* VideoProcessingChain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoProcessingChain.swift; sourceTree = "<group>"; };
+		A385476C2BEFA17100BA35BE /* ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		A385476F2BEFA17100BA35BE /* Krungthep.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Krungthep.ttf; sourceTree = "<group>"; };
+		A38547712BEFA17200BA35BE /* backgroundMusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = backgroundMusic.mp3; sourceTree = "<group>"; };
+		A38547722BEFA17200BA35BE /* coin.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = coin.mp3; sourceTree = "<group>"; };
+		A38547732BEFA17200BA35BE /* collision.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = collision.wav; sourceTree = "<group>"; };
+		A38547742BEFA17200BA35BE /* jump.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = jump.wav; sourceTree = "<group>"; };
+		A38547762BEFA17200BA35BE /* CGFloat+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGFloat+Ext.swift"; sourceTree = "<group>"; };
+		A38547772BEFA17200BA35BE /* CGPoint+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGPoint+Ext.swift"; sourceTree = "<group>"; };
+		A38547782BEFA17200BA35BE /* SKAction+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKAction+Ext.swift"; sourceTree = "<group>"; };
+		A38547792BEFA17200BA35BE /* SKTAudio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKTAudio.swift; sourceTree = "<group>"; };
+		A385477B2BEFA17200BA35BE /* GameOver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOver.swift; sourceTree = "<group>"; };
+		A385477C2BEFA17200BA35BE /* GameOverExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOverExt.swift; sourceTree = "<group>"; };
+		A385477D2BEFA17200BA35BE /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		A385477E2BEFA17200BA35BE /* GameSceneContactDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameSceneContactDelegate.swift; sourceTree = "<group>"; };
+		A385477F2BEFA17200BA35BE /* GameSceneExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameSceneExt.swift; sourceTree = "<group>"; };
+		A38547802BEFA17200BA35BE /* MainMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMenu.swift; sourceTree = "<group>"; };
+		A38547812BEFA17200BA35BE /* MainMenuExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMenuExt.swift; sourceTree = "<group>"; };
+		A38547A92BEFA97E00BA35BE /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,12 +172,17 @@
 		A385471C2BEFA10100BA35BE /* Trible_v2 */ = {
 			isa = PBXGroup;
 			children = (
+				A38547522BEFA17100BA35BE /* Controllers */,
+				A38547702BEFA17100BA35BE /* Fonts */,
+				A385476E2BEFA17100BA35BE /* ML */,
+				A38547822BEFA17200BA35BE /* Scenes */,
+				A38547752BEFA17200BA35BE /* Sound */,
+				A38547552BEFA17100BA35BE /* Types */,
+				A385477A2BEFA17200BA35BE /* Utils */,
 				A385471D2BEFA10100BA35BE /* AppDelegate.swift */,
 				A385471F2BEFA10100BA35BE /* GameScene.sks */,
 				A38547212BEFA10100BA35BE /* Actions.sks */,
-				A38547232BEFA10100BA35BE /* GameScene.swift */,
-				A38547252BEFA10100BA35BE /* GameViewController.swift */,
-				A38547272BEFA10100BA35BE /* Main.storyboard */,
+				A38547A92BEFA97E00BA35BE /* Main.storyboard */,
 				A385472A2BEFA10300BA35BE /* Assets.xcassets */,
 				A385472C2BEFA10300BA35BE /* LaunchScreen.storyboard */,
 			);
@@ -129,6 +204,140 @@
 				A38547432BEFA10300BA35BE /* Trible_v2UITestsLaunchTests.swift */,
 			);
 			path = Trible_v2UITests;
+			sourceTree = "<group>";
+		};
+		A38547522BEFA17100BA35BE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A38547512BEFA17100BA35BE /* GameViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A38547552BEFA17100BA35BE /* Types */ = {
+			isa = PBXGroup;
+			children = (
+				A38547532BEFA17100BA35BE /* CaloriesGenerator.swift */,
+				A38547542BEFA17100BA35BE /* Types.swift */,
+			);
+			path = Types;
+			sourceTree = "<group>";
+		};
+		A385475D2BEFA17100BA35BE /* Action Classifier */ = {
+			isa = PBXGroup;
+			children = (
+				A38547562BEFA17100BA35BE /* ActionPrediction.swift */,
+				A38547572BEFA17100BA35BE /* ExerciseClassifier.mlmodel */,
+				A38547582BEFA17100BA35BE /* ExerciseClassifier+FrameRate.swift */,
+				A38547592BEFA17100BA35BE /* ExerciseClassifier+Label.swift */,
+				A385475A2BEFA17100BA35BE /* ExerciseClassifier+LabelCheck.swift */,
+				A385475B2BEFA17100BA35BE /* ExerciseClassifier+PredictAction.swift */,
+				A385475C2BEFA17100BA35BE /* ExerciseClassifier+Singleton.swift */,
+			);
+			path = "Action Classifier";
+			sourceTree = "<group>";
+		};
+		A38547622BEFA17100BA35BE /* Pose */ = {
+			isa = PBXGroup;
+			children = (
+				A385475E2BEFA17100BA35BE /* Pose.swift */,
+				A385475F2BEFA17100BA35BE /* Pose+Connection.swift */,
+				A38547602BEFA17100BA35BE /* Pose+Empty.swift */,
+				A38547612BEFA17100BA35BE /* Pose+Landmark.swift */,
+			);
+			path = Pose;
+			sourceTree = "<group>";
+		};
+		A38547642BEFA17100BA35BE /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				A38547632BEFA17100BA35BE /* PerformanceReporter.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		A38547692BEFA17100BA35BE /* Video Capture */ = {
+			isa = PBXGroup;
+			children = (
+				A38547652BEFA17100BA35BE /* AVCaptureDevice+FrameRate.swift */,
+				A38547662BEFA17100BA35BE /* AVCaptureDeviceInput+Camera.swift */,
+				A38547672BEFA17100BA35BE /* AVCaptureVideoDataOutput+PixelFormat.swift */,
+				A38547682BEFA17100BA35BE /* VideoCapture.swift */,
+			);
+			path = "Video Capture";
+			sourceTree = "<group>";
+		};
+		A385476B2BEFA17100BA35BE /* Video Processing Chain */ = {
+			isa = PBXGroup;
+			children = (
+				A385476A2BEFA17100BA35BE /* VideoProcessingChain.swift */,
+			);
+			path = "Video Processing Chain";
+			sourceTree = "<group>";
+		};
+		A385476D2BEFA17100BA35BE /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				A385476C2BEFA17100BA35BE /* ViewModel.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		A385476E2BEFA17100BA35BE /* ML */ = {
+			isa = PBXGroup;
+			children = (
+				A385475D2BEFA17100BA35BE /* Action Classifier */,
+				A38547622BEFA17100BA35BE /* Pose */,
+				A38547642BEFA17100BA35BE /* Utilities */,
+				A38547692BEFA17100BA35BE /* Video Capture */,
+				A385476B2BEFA17100BA35BE /* Video Processing Chain */,
+				A385476D2BEFA17100BA35BE /* View Model */,
+			);
+			path = ML;
+			sourceTree = "<group>";
+		};
+		A38547702BEFA17100BA35BE /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				A385476F2BEFA17100BA35BE /* Krungthep.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		A38547752BEFA17200BA35BE /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				A38547712BEFA17200BA35BE /* backgroundMusic.mp3 */,
+				A38547722BEFA17200BA35BE /* coin.mp3 */,
+				A38547732BEFA17200BA35BE /* collision.wav */,
+				A38547742BEFA17200BA35BE /* jump.wav */,
+			);
+			path = Sound;
+			sourceTree = "<group>";
+		};
+		A385477A2BEFA17200BA35BE /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				A38547762BEFA17200BA35BE /* CGFloat+Ext.swift */,
+				A38547772BEFA17200BA35BE /* CGPoint+Ext.swift */,
+				A38547782BEFA17200BA35BE /* SKAction+Ext.swift */,
+				A38547792BEFA17200BA35BE /* SKTAudio.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		A38547822BEFA17200BA35BE /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				A385477D2BEFA17200BA35BE /* GameScene.swift */,
+				A385477E2BEFA17200BA35BE /* GameSceneContactDelegate.swift */,
+				A385477B2BEFA17200BA35BE /* GameOver.swift */,
+				A385477C2BEFA17200BA35BE /* GameOverExt.swift */,
+				A385477F2BEFA17200BA35BE /* GameSceneExt.swift */,
+				A38547802BEFA17200BA35BE /* MainMenu.swift */,
+				A38547812BEFA17200BA35BE /* MainMenuExt.swift */,
+			);
+			path = Scenes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,11 +444,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A385479D2BEFA17200BA35BE /* jump.wav in Resources */,
 				A38547202BEFA10100BA35BE /* GameScene.sks in Resources */,
-				A38547292BEFA10100BA35BE /* Base in Resources */,
+				A385479A2BEFA17200BA35BE /* backgroundMusic.mp3 in Resources */,
+				A385479C2BEFA17200BA35BE /* collision.wav in Resources */,
+				A38547AA2BEFA97E00BA35BE /* Main.storyboard in Resources */,
 				A385472B2BEFA10300BA35BE /* Assets.xcassets in Resources */,
+				A38547992BEFA17200BA35BE /* Krungthep.ttf in Resources */,
 				A38547222BEFA10100BA35BE /* Actions.sks in Resources */,
 				A385472E2BEFA10300BA35BE /* Base in Resources */,
+				A385479B2BEFA17200BA35BE /* coin.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,9 +478,39 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A38547242BEFA10100BA35BE /* GameScene.swift in Sources */,
-				A38547262BEFA10100BA35BE /* GameViewController.swift in Sources */,
+				A385478D2BEFA17200BA35BE /* ExerciseClassifier+Singleton.swift in Sources */,
+				A385478A2BEFA17200BA35BE /* ExerciseClassifier+Label.swift in Sources */,
+				A385478F2BEFA17200BA35BE /* Pose+Connection.swift in Sources */,
+				A38547A82BEFA17200BA35BE /* MainMenuExt.swift in Sources */,
+				A38547A22BEFA17200BA35BE /* GameOver.swift in Sources */,
+				A38547872BEFA17200BA35BE /* ActionPrediction.swift in Sources */,
+				A38547972BEFA17200BA35BE /* VideoProcessingChain.swift in Sources */,
+				A38547A02BEFA17200BA35BE /* SKAction+Ext.swift in Sources */,
+				A38547982BEFA17200BA35BE /* ViewModel.swift in Sources */,
+				A38547842BEFA17200BA35BE /* GameViewController.swift in Sources */,
+				A38547852BEFA17200BA35BE /* CaloriesGenerator.swift in Sources */,
+				A38547912BEFA17200BA35BE /* Pose+Landmark.swift in Sources */,
+				A38547902BEFA17200BA35BE /* Pose+Empty.swift in Sources */,
+				A38547922BEFA17200BA35BE /* PerformanceReporter.swift in Sources */,
+				A38547A52BEFA17200BA35BE /* GameSceneContactDelegate.swift in Sources */,
+				A385479E2BEFA17200BA35BE /* CGFloat+Ext.swift in Sources */,
+				A38547862BEFA17200BA35BE /* Types.swift in Sources */,
+				A38547A62BEFA17200BA35BE /* GameSceneExt.swift in Sources */,
+				A38547A42BEFA17200BA35BE /* GameScene.swift in Sources */,
+				A38547A12BEFA17200BA35BE /* SKTAudio.swift in Sources */,
+				A385479F2BEFA17200BA35BE /* CGPoint+Ext.swift in Sources */,
+				A385478E2BEFA17200BA35BE /* Pose.swift in Sources */,
+				A38547952BEFA17200BA35BE /* AVCaptureVideoDataOutput+PixelFormat.swift in Sources */,
+				A385478C2BEFA17200BA35BE /* ExerciseClassifier+PredictAction.swift in Sources */,
+				A385478B2BEFA17200BA35BE /* ExerciseClassifier+LabelCheck.swift in Sources */,
+				A38547962BEFA17200BA35BE /* VideoCapture.swift in Sources */,
+				A38547942BEFA17200BA35BE /* AVCaptureDeviceInput+Camera.swift in Sources */,
+				A38547882BEFA17200BA35BE /* ExerciseClassifier.mlmodel in Sources */,
+				A38547A72BEFA17200BA35BE /* MainMenu.swift in Sources */,
+				A38547A32BEFA17200BA35BE /* GameOverExt.swift in Sources */,
+				A38547892BEFA17200BA35BE /* ExerciseClassifier+FrameRate.swift in Sources */,
 				A385471E2BEFA10100BA35BE /* AppDelegate.swift in Sources */,
+				A38547932BEFA17200BA35BE /* AVCaptureDevice+FrameRate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,14 +547,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A38547272BEFA10100BA35BE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A38547282BEFA10100BA35BE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A385472C2BEFA10300BA35BE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -450,12 +686,13 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 76R68ZMQGR;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "please allow miaw";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -478,12 +715,13 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 76R68ZMQGR;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "please allow miaw";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

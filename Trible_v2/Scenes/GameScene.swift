@@ -160,25 +160,25 @@ class GameScene: SKScene {
         
         // update per frame
         override func update(_ currentTime: TimeInterval) {
-//            print(viewModel.actionLabel)
-//            if(viewModel.actionLabel == "Jumping Jacks"){
-//                if !isPaused {
-//                    if onGround {
-//                        onGround = false
-//                        velocityY = -25.0
-//                        run(soundJump)
-//                        howManyMove += 1
-//                        
-//                        let highscore = CaloriesGenerator.sharedInstance.getHighscore()
-//                        
-//                        CaloriesGenerator.sharedInstance.setScore(Double(howManyMove) * 0.2)
-//                        
-//                        if (0.2 * Double(howManyMove)) > highscore {
-//                            CaloriesGenerator.sharedInstance.setHighscore(Double(howManyMove) * 0.2)
-//                        }
-//                    }
-//                }
-//            }
+            print(viewModel.actionLabel)
+            if(viewModel.actionLabel == "Jumping Jacks"){
+                if !isPaused {
+                    if onGround {
+                        onGround = false
+                        velocityY = -25.0
+                        run(soundJump)
+                        howManyMove += 1
+                        
+                        let highscore = CaloriesGenerator.sharedInstance.getHighscore()
+                        
+                        CaloriesGenerator.sharedInstance.setScore(Double(howManyMove) * 0.2)
+                        
+                        if (0.2 * Double(howManyMove)) > highscore {
+                            CaloriesGenerator.sharedInstance.setHighscore(Double(howManyMove) * 0.2)
+                        }
+                    }
+                }
+            }
             
             if lastUpdateTime > 0 {
                 dt = currentTime - lastUpdateTime
