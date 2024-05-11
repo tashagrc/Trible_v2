@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A385471E2BEFA10100BA35BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A385471D2BEFA10100BA35BE /* AppDelegate.swift */; };
+		A38547202BEFA10100BA35BE /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = A385471F2BEFA10100BA35BE /* GameScene.sks */; };
+		A38547222BEFA10100BA35BE /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = A38547212BEFA10100BA35BE /* Actions.sks */; };
+		A38547242BEFA10100BA35BE /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38547232BEFA10100BA35BE /* GameScene.swift */; };
+		A38547262BEFA10100BA35BE /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38547252BEFA10100BA35BE /* GameViewController.swift */; };
+		A38547292BEFA10100BA35BE /* Base in Resources */ = {isa = PBXBuildFile; fileRef = A38547282BEFA10100BA35BE /* Base */; };
+		A385472B2BEFA10300BA35BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A385472A2BEFA10300BA35BE /* Assets.xcassets */; };
+		A385472E2BEFA10300BA35BE /* Base in Resources */ = {isa = PBXBuildFile; fileRef = A385472D2BEFA10300BA35BE /* Base */; };
+		A38547382BEFA10300BA35BE /* Trible_v2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38547372BEFA10300BA35BE /* Trible_v2Tests.swift */; };
+		A38547422BEFA10300BA35BE /* Trible_v2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38547412BEFA10300BA35BE /* Trible_v2UITests.swift */; };
+		A38547442BEFA10300BA35BE /* Trible_v2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38547432BEFA10300BA35BE /* Trible_v2UITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A38547342BEFA10300BA35BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A38547122BEFA10100BA35BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A38547192BEFA10100BA35BE;
+			remoteInfo = Trible_v2;
+		};
+		A385473E2BEFA10300BA35BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A38547122BEFA10100BA35BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A38547192BEFA10100BA35BE;
+			remoteInfo = Trible_v2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A385471A2BEFA10100BA35BE /* Trible_v2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trible_v2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A385471D2BEFA10100BA35BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A385471F2BEFA10100BA35BE /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		A38547212BEFA10100BA35BE /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		A38547232BEFA10100BA35BE /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		A38547252BEFA10100BA35BE /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		A38547282BEFA10100BA35BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A385472A2BEFA10300BA35BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A385472D2BEFA10300BA35BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A38547332BEFA10300BA35BE /* Trible_v2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Trible_v2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A38547372BEFA10300BA35BE /* Trible_v2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trible_v2Tests.swift; sourceTree = "<group>"; };
+		A385473D2BEFA10300BA35BE /* Trible_v2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Trible_v2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A38547412BEFA10300BA35BE /* Trible_v2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trible_v2UITests.swift; sourceTree = "<group>"; };
+		A38547432BEFA10300BA35BE /* Trible_v2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trible_v2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A38547172BEFA10100BA35BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A38547302BEFA10300BA35BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A385473A2BEFA10300BA35BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A38547112BEFA10100BA35BE = {
+			isa = PBXGroup;
+			children = (
+				A385471C2BEFA10100BA35BE /* Trible_v2 */,
+				A38547362BEFA10300BA35BE /* Trible_v2Tests */,
+				A38547402BEFA10300BA35BE /* Trible_v2UITests */,
+				A385471B2BEFA10100BA35BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A385471B2BEFA10100BA35BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A385471A2BEFA10100BA35BE /* Trible_v2.app */,
+				A38547332BEFA10300BA35BE /* Trible_v2Tests.xctest */,
+				A385473D2BEFA10300BA35BE /* Trible_v2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A385471C2BEFA10100BA35BE /* Trible_v2 */ = {
+			isa = PBXGroup;
+			children = (
+				A385471D2BEFA10100BA35BE /* AppDelegate.swift */,
+				A385471F2BEFA10100BA35BE /* GameScene.sks */,
+				A38547212BEFA10100BA35BE /* Actions.sks */,
+				A38547232BEFA10100BA35BE /* GameScene.swift */,
+				A38547252BEFA10100BA35BE /* GameViewController.swift */,
+				A38547272BEFA10100BA35BE /* Main.storyboard */,
+				A385472A2BEFA10300BA35BE /* Assets.xcassets */,
+				A385472C2BEFA10300BA35BE /* LaunchScreen.storyboard */,
+			);
+			path = Trible_v2;
+			sourceTree = "<group>";
+		};
+		A38547362BEFA10300BA35BE /* Trible_v2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A38547372BEFA10300BA35BE /* Trible_v2Tests.swift */,
+			);
+			path = Trible_v2Tests;
+			sourceTree = "<group>";
+		};
+		A38547402BEFA10300BA35BE /* Trible_v2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				A38547412BEFA10300BA35BE /* Trible_v2UITests.swift */,
+				A38547432BEFA10300BA35BE /* Trible_v2UITestsLaunchTests.swift */,
+			);
+			path = Trible_v2UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A38547192BEFA10100BA35BE /* Trible_v2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A38547472BEFA10300BA35BE /* Build configuration list for PBXNativeTarget "Trible_v2" */;
+			buildPhases = (
+				A38547162BEFA10100BA35BE /* Sources */,
+				A38547172BEFA10100BA35BE /* Frameworks */,
+				A38547182BEFA10100BA35BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Trible_v2;
+			productName = Trible_v2;
+			productReference = A385471A2BEFA10100BA35BE /* Trible_v2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A38547322BEFA10300BA35BE /* Trible_v2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A385474A2BEFA10300BA35BE /* Build configuration list for PBXNativeTarget "Trible_v2Tests" */;
+			buildPhases = (
+				A385472F2BEFA10300BA35BE /* Sources */,
+				A38547302BEFA10300BA35BE /* Frameworks */,
+				A38547312BEFA10300BA35BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A38547352BEFA10300BA35BE /* PBXTargetDependency */,
+			);
+			name = Trible_v2Tests;
+			productName = Trible_v2Tests;
+			productReference = A38547332BEFA10300BA35BE /* Trible_v2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A385473C2BEFA10300BA35BE /* Trible_v2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A385474D2BEFA10300BA35BE /* Build configuration list for PBXNativeTarget "Trible_v2UITests" */;
+			buildPhases = (
+				A38547392BEFA10300BA35BE /* Sources */,
+				A385473A2BEFA10300BA35BE /* Frameworks */,
+				A385473B2BEFA10300BA35BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A385473F2BEFA10300BA35BE /* PBXTargetDependency */,
+			);
+			name = Trible_v2UITests;
+			productName = Trible_v2UITests;
+			productReference = A385473D2BEFA10300BA35BE /* Trible_v2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A38547122BEFA10100BA35BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					A38547192BEFA10100BA35BE = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					A38547322BEFA10300BA35BE = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = A38547192BEFA10100BA35BE;
+					};
+					A385473C2BEFA10300BA35BE = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = A38547192BEFA10100BA35BE;
+					};
+				};
+			};
+			buildConfigurationList = A38547152BEFA10100BA35BE /* Build configuration list for PBXProject "Trible_v2" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A38547112BEFA10100BA35BE;
+			productRefGroup = A385471B2BEFA10100BA35BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A38547192BEFA10100BA35BE /* Trible_v2 */,
+				A38547322BEFA10300BA35BE /* Trible_v2Tests */,
+				A385473C2BEFA10300BA35BE /* Trible_v2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A38547182BEFA10100BA35BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A38547202BEFA10100BA35BE /* GameScene.sks in Resources */,
+				A38547292BEFA10100BA35BE /* Base in Resources */,
+				A385472B2BEFA10300BA35BE /* Assets.xcassets in Resources */,
+				A38547222BEFA10100BA35BE /* Actions.sks in Resources */,
+				A385472E2BEFA10300BA35BE /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A38547312BEFA10300BA35BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A385473B2BEFA10300BA35BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A38547162BEFA10100BA35BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A38547242BEFA10100BA35BE /* GameScene.swift in Sources */,
+				A38547262BEFA10100BA35BE /* GameViewController.swift in Sources */,
+				A385471E2BEFA10100BA35BE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A385472F2BEFA10300BA35BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A38547382BEFA10300BA35BE /* Trible_v2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A38547392BEFA10300BA35BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A38547442BEFA10300BA35BE /* Trible_v2UITestsLaunchTests.swift in Sources */,
+				A38547422BEFA10300BA35BE /* Trible_v2UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A38547352BEFA10300BA35BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A38547192BEFA10100BA35BE /* Trible_v2 */;
+			targetProxy = A38547342BEFA10300BA35BE /* PBXContainerItemProxy */;
+		};
+		A385473F2BEFA10300BA35BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A38547192BEFA10100BA35BE /* Trible_v2 */;
+			targetProxy = A385473E2BEFA10300BA35BE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A38547272BEFA10100BA35BE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A38547282BEFA10100BA35BE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A385472C2BEFA10300BA35BE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A385472D2BEFA10300BA35BE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A38547452BEFA10300BA35BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A38547462BEFA10300BA35BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A38547482BEFA10300BA35BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 76R68ZMQGR;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "natasharadika.Trible-v2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A38547492BEFA10300BA35BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 76R68ZMQGR;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "natasharadika.Trible-v2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A385474B2BEFA10300BA35BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 76R68ZMQGR;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "natasharadika.Trible-v2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Trible_v2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Trible_v2";
+			};
+			name = Debug;
+		};
+		A385474C2BEFA10300BA35BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 76R68ZMQGR;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "natasharadika.Trible-v2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Trible_v2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Trible_v2";
+			};
+			name = Release;
+		};
+		A385474E2BEFA10300BA35BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 76R68ZMQGR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "natasharadika.Trible-v2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Trible_v2;
+			};
+			name = Debug;
+		};
+		A385474F2BEFA10300BA35BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 76R68ZMQGR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "natasharadika.Trible-v2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Trible_v2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A38547152BEFA10100BA35BE /* Build configuration list for PBXProject "Trible_v2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A38547452BEFA10300BA35BE /* Debug */,
+				A38547462BEFA10300BA35BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A38547472BEFA10300BA35BE /* Build configuration list for PBXNativeTarget "Trible_v2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A38547482BEFA10300BA35BE /* Debug */,
+				A38547492BEFA10300BA35BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A385474A2BEFA10300BA35BE /* Build configuration list for PBXNativeTarget "Trible_v2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A385474B2BEFA10300BA35BE /* Debug */,
+				A385474C2BEFA10300BA35BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A385474D2BEFA10300BA35BE /* Build configuration list for PBXNativeTarget "Trible_v2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A385474E2BEFA10300BA35BE /* Debug */,
+				A385474F2BEFA10300BA35BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A38547122BEFA10100BA35BE /* Project object */;
+}
